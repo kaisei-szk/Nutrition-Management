@@ -1,0 +1,29 @@
+# 公開用設定例。個人情報や実測値を追加しないこと。
+targets:
+  daily_calories_kcal: 1800
+  daily_protein_g:
+    min: 115
+    max: 125
+
+budget:
+  period_days: 30
+  home_cooking_yen: 20000
+  include_dining_out: false
+
+meal_policy:
+  staple_foods:
+    - rice
+    - pasta
+    - somen
+    - soba
+  excluded_foods:
+    - oatmeal
+  priorities:
+    - single_person_household
+    - meal_prep
+    - freezer_friendly
+
+records:
+  date_format: YYYY-MM-DD
+  currency: JPY
+  csv_encoding: UTF-8

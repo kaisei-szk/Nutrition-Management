@@ -1,0 +1,44 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*
+*secret*
+config/local.*
+config/*.local.*
+
+# Canonical personal records in data/records/ are intentionally tracked.
+# Ignore temporary imports, exports, and duplicate local copies.
+data/raw/
+data/imports/
+data/exports/
+data/**/*.local.csv
+data/**/*-private.csv
+
+# Canonical reports in reports/generated/ are intentionally tracked.
+reports/private/
+
+# Private recipe notes
+recipes/private/
+
+# Temporary and generated files
+tmp/
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/

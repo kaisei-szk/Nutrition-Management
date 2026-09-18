@@ -1,0 +1,3 @@
+date,category,description,amount_yen,budget_scope,note,is_sample
+2099-01-01,home_cooking,架空の食材購入,1200,home_cooking,公開用の架空サンプル,true
+2099-01-01,dining_out,架空の外食,900,excluded,自炊予算から除外する架空サンプル,true
